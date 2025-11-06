@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-poly_sight_contracts = "42gXTYJEF3GEdZFvdcmXisAww9AeuM4Bx2Nk7S2zVrN4"
+poly_sight_contracts = "F3pfENkXG2hhtZgcJZmuwcZsf3c6qDr2FxrBuxxvaZns"
 
 [registry]
 url = "https://api.apr.dev"

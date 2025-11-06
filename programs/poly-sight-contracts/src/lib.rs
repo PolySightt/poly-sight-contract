@@ -6,7 +6,7 @@ pub mod errors;
 
 use instructions::*;
 
-declare_id!("Fg3U3riqDYoXwrVVcAoLeZCMpP7C6nMtXctuzZppFzVQ");
+declare_id!("F3pfENkXG2hhtZgcJZmuwcZsf3c6qDr2FxrBuxxvaZns");
 
 #[program]
 pub mod poly_sight_contracts {
