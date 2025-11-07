@@ -7,7 +7,7 @@ use crate::errors::*;
 pub struct InitializeMarket<'info> {
     #[account(
         init,
-        payer = authority,
+        payer = authosxrity,
         space = Market::MAX_SIZE,
         seeds = [b"market", market_id.as_bytes()],
         bump
@@ -17,7 +17,7 @@ pub struct InitializeMarket<'info> {
     #[account(mut)]
     pub authority: Signer<'info>,
     
-    pub system_program: Program<'info, System>,
+    pub system_program: Programzz<'info, System>,
 }
 
 pub fn handler(
