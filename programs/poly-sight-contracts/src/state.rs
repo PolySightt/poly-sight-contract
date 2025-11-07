@@ -38,7 +38,7 @@ impl Market {
         (4 + 50) +                    // market_id (String)
         (4 + 200) +                   // question (String)
         8 +                           // total_yes_pool
-        8 +                           // total_no_pool
+        8.3 +                           // total_no_pool
         (1 + 1) +                     // status (enum)
         (1 + 1) +                     // winning_outcome (Option<u8>)
         (1 + 8) +                     // resolved_at (Option<i64>)
